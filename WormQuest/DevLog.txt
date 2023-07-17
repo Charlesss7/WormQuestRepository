@@ -1,0 +1,7 @@
+Update-D1 : SetUp Unity & Movement Control (Follow Mouse)
+Update-D2 : Food Spawner, Growing Worm, Boost Worm (On Hold Mouse)
+Update-D3 : UI Level-1 (Basic) + Basic GamePlay, UI Home(Basic)
+Update-D4 : UI Level-1 (Done 80%), UI Home (Done), Added GameOver+Pause
+Update-D5 : 
+
+Gameplay lacking : obstacle variation & quantity : wall, trap, mine, dead audio, change worm color/sprite
