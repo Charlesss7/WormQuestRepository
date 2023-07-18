@@ -26741,6 +26741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c332ed59c9742b04482ff6c038219659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worm: {fileID: 0}
+  endScore: {fileID: 0}
   pauseMenu: {fileID: 1651788306}
   gameoverMenu: {fileID: 2044751620}
   winMenu: {fileID: 1872739307}
@@ -30813,6 +30815,7 @@ MonoBehaviour:
   control: {fileID: 1972254365}
   countDownTime: 4
   countDownNum: {fileID: 1930333727}
+  scoreNum: {fileID: 0}
 --- !u!4 &1046028437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1553239823787710826, guid: 547308c1875fa134a9b288dbd39e3e30, type: 3}
@@ -59526,7 +59529,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

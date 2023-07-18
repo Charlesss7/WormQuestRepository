@@ -27643,6 +27643,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c332ed59c9742b04482ff6c038219659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worm: {fileID: 0}
+  endScore: {fileID: 0}
   pauseMenu: {fileID: 1317301050}
   gameoverMenu: {fileID: 1533023}
   winMenu: {fileID: 1291519597}
@@ -31915,6 +31917,7 @@ MonoBehaviour:
   control: {fileID: 1972254365}
   countDownTime: 4
   countDownNum: {fileID: 1088700631}
+  scoreNum: {fileID: 0}
 --- !u!1001 &1047275750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61432,7 +61435,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
