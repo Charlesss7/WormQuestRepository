@@ -32143,6 +32143,8 @@ MonoBehaviour:
   timer: 30
   timerNum: {fileID: 2042084924}
   worm: {fileID: 1972254365}
+  gameoverMenu: {fileID: 620907540}
+  endScore: {fileID: 113458173}
 --- !u!4 &1046028437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1553239823787710826, guid: 547308c1875fa134a9b288dbd39e3e30, type: 3}

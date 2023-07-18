@@ -9,7 +9,10 @@ public class Timer : MonoBehaviour
 
     public Text timerNum;
     public WormController worm;
+    public GameObject gameoverMenu;
+    public Text endScore;
     void Start(){
+        Time.timeScale = 1f;
         if(worm.enabled==true){
             StartCoroutine("countDown");
         }
@@ -25,6 +28,10 @@ public class Timer : MonoBehaviour
             }
         }
         DisplayCountDown(timer);
+
+        if(timer==0){
+            GameOver();
+        }
     }
 
     private IEnumerator countDown(){
@@ -43,5 +50,11 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         
         timerNum.text= string.Format("{0}",seconds);
+    }
+
+    public void GameOver(){
+        gameoverMenu.SetActive(true);
+        endScore.text=string.Format("Score : {0}",worm.score);
+        Time.timeScale = 0f;
     }
 }
